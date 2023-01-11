@@ -13,7 +13,6 @@ jobs:
       - run: bats -v
       
   super-lint:
-    name: Lint code base
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
